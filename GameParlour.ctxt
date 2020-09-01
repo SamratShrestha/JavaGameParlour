@@ -1,0 +1,24 @@
+#BlueJ class context
+comment0.target=GameParlour
+comment1.params=gameStation\ videoGameName\ hourlyRate
+comment1.target=void\ addNewVideoGameStation(java.lang.String,\ java.lang.String,\ int)
+comment1.text=\n\ 9\ function\ to\ add\ video\ game\ station\ in\ list\n\n\ @param\ gameStation\n\ @param\ videoGameName\n\ @param\ hourlyRate\n
+comment2.params=indexNo
+comment2.target=void\ removeVideoGameStation(int)
+comment2.text=\n\ 10\ function\ to\ remove\ video\ game\ station\ using\ index\ no\n\n\ @param\ indexNo\n
+comment3.params=indexNo\ customerName\ customerType\ bookingDate\ duration
+comment3.target=void\ bookVideoGameStation(int,\ java.lang.String,\ java.lang.String,\ java.lang.String,\ int)
+comment3.text=\n\ 11\ function\ to\ book\ video\ game\ station.\ it\ calls\ bookVideoGameStation\n\ from\ VideoGameStaion\ class.\ if\ index\ no\ is\ not\ in\ range,\ suitable\ message\n\ is\ displayed\n\n\ @param\ indexNo\n\ @param\ customerName\n\ @param\ customerType\n\ @param\ bookingDate\n\ @param\ duration\n
+comment4.params=indexNo
+comment4.target=void\ makeVideoGameAvailable(int)
+comment4.text=\n\ 12\ function\ to\ make\ video\ game\ available\ using\ index\ no\n\n\ @param\ indexNo\n
+comment5.params=
+comment5.target=void\ listGameStation()
+comment5.text=\n\ 13\ function\ to\ list\ available\ game\ stations\ along\ with\ index\ no\n
+comment6.params=searchGameStation\ searchHourlyRate
+comment6.target=void\ searchTerm(java.lang.String,\ int)
+comment6.text=\n\ 14\ function\ to\ search\ game\ station\ and\ hourly\ rate.\ Suitable\ message\ is\n\ displayed\ upon\ error\n\n\ @param\ searchGameStation\n\ @param\ searchHourlyRate\n
+comment7.params=
+comment7.target=void\ displayAllDetails()
+comment7.text=\n\ 15\ function\ to\ display\ all\ the\ details\ such\ as\ customer\ name\ ,\ customer\n\ type,\ game\ station\ and\ hourly\ rate\n
+numComments=8
